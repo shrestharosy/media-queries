@@ -1,8 +1,11 @@
-@import "base/base.scss";
+//@import "helpers/index";
+//@import "mixins/index";
+//@import "base/index";
 
-body {
-  div {
-    color: yellow;
-    display: flex;
+.nav{
+  background-color: grey;
+  .list-item{
+    font-size: 14px;
+    color: red;
   }
 }
