@@ -1,0 +1,14 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+// target html tags in base 
+//  no classnames or id

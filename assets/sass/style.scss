@@ -1,8 +1,30 @@
-@import "base/base.scss";
+@import 'base/reset';
+@import 'helpers/colors';
+@import 'helpers/variables';
+@import 'base/base.scss';
+@import 'base/typography';
 
-body {
-  div {
-    color: yellow;
-    display: flex;
+@import 'components/button';
+@import 'components/carousel';
+@import 'components/form';
+@import 'components/nav';
+
+.button {
+  font-size: 40px;
+
+  &__price {
+    color: red;
+  }
+
+  &__text {
+    color: white;
+  }
+
+  &--primary {
+    background-color: blue;
+  }
+
+  &--secondary {
+    background-color: gray;
   }
 }

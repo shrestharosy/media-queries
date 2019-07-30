@@ -21,12 +21,7 @@ function style() {
       .pipe(sourcemaps.init())
       .pipe(sass())
       .on("error", sass.logError)
-      .pipe(
-        autoprefixer({
-          browsers: ["last 2 versions"],
-          cascade: false
-        })
-      )
+    
       // Use postcss with autoprefixer and compress the compiled file using cssnano
       .pipe(cssnano())
       // Now add/write the sourcemaps
