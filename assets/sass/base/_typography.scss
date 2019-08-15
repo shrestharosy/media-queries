@@ -1,12 +1,55 @@
+<<<<<<< HEAD
+=======
+// ==========================================================================
+// Headings
+// ========================================================================== */
+// Mixin - Heading Size
+// ========================================================================== */
+//
+// @params
+//  $size
+//  $line-height
+//
+
+//Heading element styles
+>>>>>>> ba418abcdd9574f4ee15a9effde79449d214c6c8
 @mixin heading-size($size) {
   font-size: $size;
   line-height: 1.33;
 }
 
 h1 {
+<<<<<<< HEAD
   @include heading-size((32px));
 }
 
 h2 {
   @include heading-size((24px));
+=======
+  @include heading-size(32px);
+}
+
+h2 {
+  @include heading-size(24px);
+}
+
+h3 {
+  @include heading-size(18px);
+}
+
+h4 {
+  @include heading-size(16px);
+}
+
+h5 {
+  @include heading-size(14px);
+}
+
+h6 {
+  @include heading-size(12px);
+}
+
+a {
+  text-decoration: none;
+>>>>>>> ba418abcdd9574f4ee15a9effde79449d214c6c8
 }

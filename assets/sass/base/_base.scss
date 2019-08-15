@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *,
 *:before,
 *:after {
@@ -12,3 +13,14 @@ body {
 
 // target html tags in base 
 //  no classnames or id
+=======
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+>>>>>>> ba418abcdd9574f4ee15a9effde79449d214c6c8

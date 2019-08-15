@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'base/reset';
 @import 'helpers/colors';
 @import 'helpers/variables';
@@ -28,3 +29,16 @@
     background-color: gray;
   }
 }
+=======
+//@import "helpers/index";
+//@import "mixins/index";
+//@import "base/index";
+
+.nav{
+  background-color: grey;
+  .list-item{
+    font-size: 14px;
+    color: red;
+  }
+}
+>>>>>>> ba418abcdd9574f4ee15a9effde79449d214c6c8
